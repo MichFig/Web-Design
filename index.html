@@ -11,6 +11,8 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 <body>
+
+{% comment %} start of header div {% endcomment %}
 <div class="btn-group">
         <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
     Plots
@@ -24,8 +26,11 @@
     </div>
   </div>
 </div>
+  <li><a href="index.html">Home</a></li>
   <li><a href="cities_data.html">Data</a></li>
-  <li><a href="Comparisons.html">Comparisons</a></li>
+  <li><a href="comparisons.html">Comparisons</a></li>
+{% comment %} end of header div {% endcomment %}
+
 <h1 style="background-color:#008B8B; color:#FFFFFF;">Latitude: A Study of Weather Patterns</h1>
     <p>Welcome to Michelle's Weather Analysis Page.  The purpose of this page is to showcase our limited web design abilities, utilizing the images of a prior assignment.<br>
         Specifically, the weather data from multiple global cities randomly assigned and collected through the OpenWeather API.  This weather data was then <br>plotted by latitude and compared to additional weather variables of max temperature, humidity, cloudiness and wind speeds for visualazation.<p>

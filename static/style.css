@@ -12,39 +12,34 @@ p {
     color:#008B8B;
     text-align: justify;
     font-family: Arial;
-    
-    
 } 
 
 li {
     margin-right: 40px;
     background-color:#ffffff; 
     color:#FFFFFF;
-}
+    margin-top: 7px;
+    display: inline;
+    float: left;
+  }
+
 .nav-link {
     margin-right: 10px;
-    background-colorffffff
-    color:#FFFFFF !important;
+    background-color: #FFFFFF;
+    color: #FFFFFF;
 }
 
 ul  {
     margin-right: 50px;
     background-color:#ffffff; 
     color:#FFFFFF;
-}
-ul {
+    }
+
+ul {    
     list-style-type: none;
     margin: 0px;
     padding: 15px;
   }
-  li {
-    display: inline;
-    float: left;
-    margin-rignt 10px;
-    background-color:#FFFFFF; 
-    color:#FFFFFF;
-  }
-
   
 /* Media query for body */
 @media only screen and (max-width: 767px) {
