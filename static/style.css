@@ -11,6 +11,9 @@ h1 {
 p {
     color:#008B8B;
     text-align: justify;
+    font-family: Arial;
+    
+    
 } 
 
 li {
@@ -41,6 +44,8 @@ ul {
     background-color:#FFFFFF; 
     color:#FFFFFF;
   }
+
+  
 /* Media query for body */
 @media only screen and (max-width: 767px) {
     /* Set background color to white on small screens */
